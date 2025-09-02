@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 // Change this if your repo name is different
-const repoName = 'fitness-tracker-app 1'
+const repoName = 'Fitness-Tracker-app-1'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
