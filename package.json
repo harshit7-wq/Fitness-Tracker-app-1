@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "postbuild": "copy dist\\index.html dist\\404.html && if exist docs rmdir /s /q docs && xcopy dist docs /E /I"
+    
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
