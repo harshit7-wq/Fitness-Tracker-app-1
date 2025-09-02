@@ -1,0 +1,44 @@
+.tab-container {
+  padding: 20px;
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+button {
+  padding: 10px 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e8449;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background: white;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}

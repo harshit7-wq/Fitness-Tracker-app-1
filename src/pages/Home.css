@@ -1,0 +1,23 @@
+.home-wrap {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.title {
+  font-size: clamp(28px, 6vw, 56px);
+  margin: 0 0 10px;
+  line-height: 1.1;
+  background: linear-gradient(135deg, #8ab4ff, #c1d5ff 60%, #9ff0ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 20px rgba(118,168,255,.15);
+}
+
+.subtitle {
+  color: #bfc7e9;
+  font-size: 16px;
+}
